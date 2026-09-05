@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //operators- action on data
+
+        //1.arithematic - +, -, *, /, %
+
+        let x = 10
+        let y = 5
+          
+        console.log(x+y)
+        console.log(x-y)
+        console.log(x*y)
+        console.log(x/y)
+        console.log(x%y)
+
+        //2.Assignment - = while assigning do the operation
+
+        let score =5
+        score += 3 // score = score+3
+
+        console.log(score)
+
+        //3. comparing operators - boolean data type - >, <, 
+
+        let a=5
+        let b= 10
+
+        console.log(a>b) // false
+        console.log(a<b)// true
+
+        let p=5
+        let q ="5"
+
+        //== it only checks the value
+
+        console.log(p==q) //true
+
+        //=== checks both value and data type
+
+        console.log(p===q) // false because one is number and other is string
+
+        //4.logical operator - &&, ||, !
+
+        let ismember = false
+        let totalbill = 1000
+
+        console.log( "result of and is" ,ismember && totalbill >= 800)  // ismember= false, totalbill = 1000>800 so true (false &&  true = false)
+
+        console.log("result of or is" ,ismember || totalbill >= 800)
+
+        console.log(!ismember)
+    </script>
+</body>
+</html>

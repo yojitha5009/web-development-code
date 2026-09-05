@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //datatye- different types of data
+    /* string-"written in double cotes"  or 'single cotes' */
+
+    let username = "jhon"
+    
+    let city = 'mumbai'
+    console.log(typeof(city))
+
+    /* number- +ve , -ve , decimal */
+
+    let age = 8
+    
+    let value = 99.9
+
+    let marks = -2
+    console.log(typeof(marks))
+
+
+     /* boolean- true ,false */
+
+    let netflixsub = true
+    
+    let loginstatus = false
+    console.log(typeof(netflixsub))
+
+     /* undefined- without assigning any value */
+    
+    let score
+
+    console.log(typeof(score))
+
+    /* null -  empty value*/
+    
+        let discount = null
+
+    console.log(typeof(discount))
+    //it shows object as a result due to bug in js
+
+
+    //data tye 2 - multiple data
+    //1.arrays - stores multiple values. in js it can also store data of different data types.
+    
+    //symbol- []
+    //index numer = starts with 0
+
+    let students = ["satya" , 'jhon' , '1211' , 'true']
+    console.log(students)
+
+    //acess the data using index number
+    console.log(students[0])
+    console.log(students[4]) //no value so undefined
+    console.log(students[3])
+
+    //o2.object - collection of data -  key value pair format
+    //symbol - {}
+
+    const employee = {   //we dont want to update values so const
+ 
+        // key(left) : value(right)
+        name : "pavan",
+
+        email : "abc@gmail.com",
+
+        loginStatus : false
+
+    }
+
+    console.log(employee)
+
+    console.log(employee.email)
+    console.log(employee.name)
+    
+    </script>
+</body>
+</html>
